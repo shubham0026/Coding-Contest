@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 public class UserContestQuestions {
+     // A good practice is to Write immutable classes when you can
     private final Map<Contest,List<Question>> contestQuestionsMap;
 
     public UserContestQuestions(){
